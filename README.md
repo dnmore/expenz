@@ -2,9 +2,11 @@
 
 The Expense Tracker Dashboard is a streamlined and visually engaging web application designed to help users monitor and analyze their financial activity. The application offers a dashboard with a high-level overview of total income, expenses, and budget, accompanied by visual charts for better understanding. Dedicated routes for viewing detailed income and expense entries include functionality for exporting data as a CSV file via a Python FastAPI endpoint.
 
+**Note:** This project focuses solely on data retrieval and visualization. Authentication, CRUD operations, and data entry functionalities are not included.
+
+
 ![Preview](/frontend/public/hero.png)
 
-**Note:** This project focuses solely on data retrieval and visualization. Authentication, CRUD operations, and data entry functionalities are not included.
 
 ## ✨ Features
 
@@ -41,24 +43,26 @@ The Expense Tracker Dashboard is a streamlined and visually engaging web applica
 2. **Install dependencies**
    For the frontend:
    ```bash
+     cd frontend
      npm install
    ```
    For the Python backend:
    ```bash
+     cd services/csv-export
      pip install -r requirements.txt
    ```
 3. **Set up environment variables**
 Create `.env` files in the project root for both the frontend and backend, and define necessary variables (e.g., database connection string, API keys).
 4. **Run the application**
-Start the frontend:
+  -Start the frontend:
 ```bash
     cd frontend
     npm run dev
 ```
 
-Start the backend:
+  -Start the backend:
 ```bash
-    cd services
+    cd services/csv-export
     uvicorn main:app --reload 
 ```
 5. Access the application

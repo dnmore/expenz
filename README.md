@@ -41,12 +41,12 @@ The Expense Tracker Dashboard is a streamlined and visually engaging web applica
    git clone https://github.com/dnmore/expenz.git
    ```
 2. **Install dependencies**
-   For the frontend:
+   - For the frontend:
    ```bash
      cd frontend
      npm install
    ```
-   For the Python backend:
+   - For the Python backend:
    ```bash
      cd services/csv-export
      pip install -r requirements.txt

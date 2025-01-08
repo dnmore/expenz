@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  background-color: #f4f4f5;
+  color: #27272a;
+}
+
+.list > div:nth-child(even) {
+  background-color: #faf5f5;
+}
+
+
+tspan {
+  font-family: "Outfit", serif;
+}

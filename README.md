@@ -52,7 +52,7 @@ The Expense Tracker Dashboard is a streamlined and visually engaging web applica
      pip install -r requirements.txt
    ```
 3. **Set up environment variables**
-Create `.env` files in the project root for both the frontend and backend, and define necessary variables (e.g., database connection string, API keys).
+- Create `.env` files in the project root for both the frontend and backend, and define necessary variables (e.g., database connection string, API keys).
 4. **Run the application**
   - Start the frontend:
    ```bash
@@ -65,8 +65,8 @@ Create `.env` files in the project root for both the frontend and backend, and d
     cd services/csv-export
     uvicorn main:app --reload 
    ```
-5. Access the application
-Open your browser and navigate to `http://localhost:3000`.
+5. **Access the application**
+- Open your browser and navigate to `http://localhost:3000`.
 
 ## 📄 License
 

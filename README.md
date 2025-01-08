@@ -54,17 +54,17 @@ The Expense Tracker Dashboard is a streamlined and visually engaging web applica
 3. **Set up environment variables**
 Create `.env` files in the project root for both the frontend and backend, and define necessary variables (e.g., database connection string, API keys).
 4. **Run the application**
-  -Start the frontend:
-```bash
+  - Start the frontend:
+   ```bash
     cd frontend
     npm run dev
-```
+   ```
 
-  -Start the backend:
-```bash
+  - Start the backend:
+   ```bash
     cd services/csv-export
     uvicorn main:app --reload 
-```
+   ```
 5. Access the application
 Open your browser and navigate to `http://localhost:3000`.
 

@@ -7,7 +7,7 @@ import * as motion from "motion/react-client";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-6">
+    <main className="flex min-h-screen overflow-y-auto flex-col p-6">
       <div className="h-16 p-4">
         <Logo />
       </div>

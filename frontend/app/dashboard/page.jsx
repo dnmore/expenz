@@ -65,7 +65,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="min-h-screen overflow-auto bg-zinc-100">
+    <div className="min-h-screen overflow-y-auto bg-zinc-100">
       <div className="flex h-20 shrink-0 items-end rounded-md bg-primary shadow-md text-white text-[44px] p-4 md:h-52">
         Dashboard
       </div>

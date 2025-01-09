@@ -7,7 +7,7 @@ from export import generate_csv
 
 app = FastAPI()
 
-origins = ["http://localhost:3000"]
+origins = ["https://expenz-dashboard.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,

@@ -74,6 +74,7 @@ export default function Dashboard() {
           <AmountCardsSkeleton />
         ) : (
           <>
+            
             <AmountCard title="Total Income" amount={totalIncomeAmount} />
             <AmountCard title="Total Expense" amount={totalExpenseAmount} />
             <AmountCard

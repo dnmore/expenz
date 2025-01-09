@@ -11,8 +11,8 @@ export default function Home() {
       <div className="h-16 p-4">
         <Logo />
       </div>
-      <div className="flex flex-col lg:items-center lg:justify-center gap-4 px-4 py-12 lg:flex-row lg:py-10 ">
-        <div className="flex flex-col gap-6 px-8  md:px-10 lg:px-20">
+      <div className="flex flex-col lg:items-center lg:justify-center gap-4 px-4 py-12 lg:flex-row">
+        <div className="flex flex-col justify-center gap-6 px-8  md:px-10 lg:px-20">
           <motion.div
             initial={{ opacity: 0, x: -200 }}
             animate={{ opacity: 1, x: 0 }}

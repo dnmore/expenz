@@ -13,7 +13,7 @@ export default function Income() {
 
 
   return (
-    <div className="flex min-h-screen flex-col text-center">
+    <div className="flex flex-col text-center">
       <div className="flex h-20 shrink-0 items-end rounded-md bg-primary text-white text-[44px] p-4 md:h-52">
         Income
       </div>

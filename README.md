@@ -63,7 +63,8 @@ The Expense Tracker Dashboard is a streamlined and visually engaging web applica
   - Start the backend:
    ```bash
     cd services/csv-export
-    uvicorn main:app --reload 
+    uvicorn api.index:app --reload
+ 
    ```
 5. **Access the application**
 - Open your browser and navigate to `http://localhost:3000`.

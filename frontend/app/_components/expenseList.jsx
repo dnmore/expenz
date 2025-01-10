@@ -26,7 +26,7 @@ function ExpenseList() {
   };
 
   return (
-    <div className="pt-4 bg-white mt-4 rounded-md shadow-md">
+    <div className="pt-4 my-4 bg-white mt-4 rounded-md shadow-md">
       {loading ? (
         <ListSkeleton />
       ) : (

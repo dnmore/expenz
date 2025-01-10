@@ -54,46 +54,46 @@ export function PieChartSkeleton() {
 export function ListSkeleton() {
   return (
     <>
-      <div className="grid grid-cols-3 text-center uppercase py-4 border-b border-b-gray-300 md:grid-cols-4">
-        <div className="ml-2 h-5 w-36 mb-2  bg-gray-200" />
-        <div className="h-5 w-36 mb-2  bg-gray-200" />
-        <div className="h-5 w-36 mb-2  bg-gray-200" />
-        <div className="h-5 w-36 mb-2  bg-gray-200" />
+      <div className="grid grid-cols-3 text-center uppercase p-4 border-b border-b-gray-300 md:grid-cols-4">
+      <div className="ml-2 h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="hidden h-5 max-w-36 mb-2  bg-gray-200 md:block" />
       </div>
       <div className="list">
-        <div className="grid grid-cols-3 text-center py-4 md:grid-cols-4">
-          <div className="ml-2 h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
+        <div className="grid grid-cols-3 text-center p-4 md:grid-cols-4">
+          <div className="ml-2 h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="hidden h-5 max-w-36 mb-2  bg-gray-200 md:block" />
         </div>
 
-        <div className="grid grid-cols-3 text-center py-4 md:grid-cols-4">
-          <div className="ml-2 h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
+        <div className="grid grid-cols-3 text-center p-4 md:grid-cols-4">
+          <div className="ml-2 h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="hidden h-5 max-w-36 mb-2  bg-gray-200 md:block" />
         </div>
 
-        <div className="grid grid-cols-3 text-center py-4 md:grid-cols-4">
-          <div className="ml-2 h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
+        <div className="grid grid-cols-3 text-center p-4 md:grid-cols-4">
+          <div className="ml-2 h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="hidden h-5 max-w-36 mb-2  bg-gray-200 md:block" />
         </div>
 
-        <div className="grid grid-cols-3 text-center py-4 md:grid-cols-4">
-          <div className="ml-2 h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
+        <div className="grid grid-cols-3 text-center p-4 md:grid-cols-4">
+          <div className="ml-2 h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="hidden h-5 max-w-36 mb-2  bg-gray-200 md:block" />
         </div>
 
-        <div className="grid grid-cols-3 text-center py-4 md:grid-cols-4">
-          <div className="ml-2 h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
-          <div className="h-5 w-36 mb-2  bg-gray-200" />
+        <div className="grid grid-cols-3 text-center p-4 md:grid-cols-4">
+          <div className="ml-2 h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="h-5 max-w-36 mb-2  bg-gray-200" />
+          <div className="hidden h-5 max-w-36 mb-2  bg-gray-200 md:block" />
         </div>
       </div>
     </>

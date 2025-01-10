@@ -2,6 +2,8 @@
 
 The Expense Tracker Dashboard is a streamlined and visually engaging web application designed to help users monitor and analyze their financial activity. The application offers a dashboard with a high-level overview of total income, expenses, and budget, accompanied by visual charts for better understanding. Dedicated routes for viewing detailed income and expense entries include functionality for exporting data as a CSV file via a Python FastAPI endpoint.
 
+[Live Demo](https://expenz-dashboard.vercel.app/)
+
 **Note:** This project focuses solely on data retrieval and visualization. Authentication, CRUD operations, and data entry functionalities are not included.
 
 
